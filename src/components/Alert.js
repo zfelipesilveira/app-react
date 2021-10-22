@@ -5,7 +5,7 @@ const Alert = ({type, msg, removeAlert, list}) => {
         const timeout = setTimeout(() => {
             removeAlert();
         }, 3000);
-        return () => clearTimeout()
+        return () => clearTimeout(timeout);
     })
 }
 
