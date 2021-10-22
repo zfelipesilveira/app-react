@@ -1,6 +1,6 @@
 import React from 'react'
 
-const Alert = () => {
+const Alert = ({type, msg, removeAlert, list}) => {
     return (
         <div>
             
